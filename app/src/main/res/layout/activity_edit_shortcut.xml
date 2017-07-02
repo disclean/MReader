@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="80dp"
+	android:orientation="horizontal">
+	<TextView
+		android:id="@+id/txtID"
+		android:layout_width="30dp"
+		android:layout_height="match_parent"
+		android:text="1"
+		android:background="@color/colorAccent"
+		android:textAlignment="center"
+		android:gravity="center"
+		android:textSize="16sp"/>
+	<LinearLayout
+		android:layout_width="300dp"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/txtName"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:text="차태현"
+			android:background="@color/colorPrimary"
+			android:textAlignment="center"
+			android:gravity="center"
+			android:textSize="16sp"/>
+		<TextView
+			android:id="@+id/txtNumber"
+			android:layout_width="wrap_content"
+			android:layout_height="30dp"
+			android:text="010-5272-1485"
+			android:textAlignment="center"
+			android:gravity="center"
+			android:background="@color/colorPrimaryDark"
+			android:textSize="12sp"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="50dp"
+		android:layout_height="match_parent"
+		android:background="@color/colorAccent">
+
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:id="@+id/txtRegister"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:background="#EEEEEE"
+			android:onClick="btnChangeShortcutHandler"
+			android:text="등록"/>
+	</LinearLayout>
+
+</LinearLayout>
+-->
+<!--
+	<FrameLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res/com.sean.mreader"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<com.sean.mreader.ShortcutItem
+			android:layout_width="300dp"
+			android:layout_height="300dp"
+			android:background="#ccc"
+			android:paddingBottom="40dp"
+			android:paddingLeft="20dp"
+			app:exampleColor="#33b5e5"
+			app:exampleDimension="24sp"
+			app:exampleDrawable="@android:drawable/ic_menu_add"
+			app:exampleString="Hello, ShortcutItem"/>
+
+	</FrameLayout>
+
+	-->
+
+<RelativeLayout
+	android:id="@+id/activity_edit_shortcut"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.sean.EditShortcutActivity">
+
+</RelativeLayout>
